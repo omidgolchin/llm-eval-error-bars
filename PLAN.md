@@ -409,3 +409,60 @@ in `results/summary.md`.
 | Date | Change | Reason | Outputs seen? |
 |---|---|---|---|
 | — | — | — | — |
+| 2026-11-23 | No change to the plan. Post-freeze exploratory analysis recorded below (finite-pool correction), reported in `REPORT_P01_FPC.md`. | Claude's review of 2026-11-23 (finite-pool gate), approved by Omid. | Yes |
+
+**Post-freeze analysis, 2026-11-23 (not an amendment).** The frozen
+coverage study scores intervals against the mean of the same 400×5 pool
+the subsamples are drawn from, so frozen coverage overstates
+super-population coverage by an amount that grows with N. The analysis
+in `REPORT_P01_FPC.md` (code `scripts/fpc.py`) rescores the frozen
+replicates with a finite-pool-corrected criterion and adds a split-pool
+check; the frozen numbers in `results/coverage_*.csv` are unchanged and
+are reported alongside the corrected ones, never replaced. Findings and
+the proposed README headline sentence are in the report; the README
+itself is not changed by this entry.
+
+2026-11-23: post-freeze check against variance-adaptive regions (scripts/i040.py; I040_FROZEN_RULE.md); decision CONFIRM.
+
+## 15. Breadth arm (addendum, frozen 2026-11-23)
+
+A separate arm, frozen in `FREEZE_BREADTH.md` before its first paid
+call; nothing in §§1–14 changes. It asks two things: whether the
+interval guidance carries over to pass@k on code generation, and
+whether the coverage audit replicates on a fresh GSM8K pool.
+
+- **Code arm:** MBPP+ (EvalPlus v0.3.1, data v0.2.0, 378 problems,
+  pinned and hashed in the freeze note), the same three models
+  (endpoints re-verified unchanged on 2026-11-23), n = 20 samples at
+  temperature 0.8, EvalPlus's instruct prompt quoted verbatim in the
+  freeze note, extraction by the EvalPlus sanitizer (a failure
+  counts as a fail), pass = all base and plus tests pass.
+- **Pilot:** HumanEval+ (v0.1.10), 20 problems × 20 samples × 3
+  models, for calibration only; pilot data is never scored into the
+  study.
+- **Primary cell:** k = 4, N = 50, K = n = 20, so the finite-pool
+  correction is exact at √(1 − N/P). Decision read on the cluster-t
+  interval over problems (problem bootstrap beside it), per included
+  model, with the pre-written HOLDS / UNDER-COVERS / CONSERVATIVE
+  rules and arm-outcome wording of the freeze note. Inclusion:
+  pool pass@1 ≥ 0.02 and pool pass@4 ≤ 0.98.
+- **Exploratory grid:** k ∈ {1, 2, 4, 8}, N ∈ {25, 50, 100, 200},
+  K ∈ {5, 10, 20}, k ≤ K, labelled exploratory; the K < n
+  correction factor and its components are defined in the freeze
+  note, with W_m defined by the exact sum of Milletarì & Kundu
+  (2026) Eq. (30) and Monte Carlo kept as the check. Naive
+  comparator at k = 1 only (Wilson on the pooled binaries),
+  exploratory; no naive comparator at the primary cell.
+- **Replication arm:** 400 fresh GSM8K test items drawn with seed
+  20261123 from the 919 outside the frozen pool, × 5 seeds × 3
+  models at the frozen settings, the frozen pipeline with the exact
+  correction inside the fresh pool, read at N = 50, K = 5; the 2-SE
+  replication rule and the ≥ 2-of-3 gate for generalised wording
+  are in the freeze note. Never trimmed.
+- **Budget:** $45 cap for the arm, automatic stop at $36; trim
+  order n 20 → 16 (K stays equal to n), then drop pool models with
+  pilot pass@1 < 0.02, then n 16 → 12.
+- **Pre-registration:** this addendum and the freeze note are
+  committed and pushed publicly before the first paid call; the OSF
+  registration of the freeze is submitted before the first paid
+  call.

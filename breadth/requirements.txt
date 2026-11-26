@@ -1,0 +1,5 @@
+# Breadth-arm harness dependencies (in addition to ../requirements.txt).
+# EvalPlus is pinned to the frozen release; its own dependencies
+# (tree-sitter, appdirs, wget, tempdir, psutil, rich, termcolor, ...)
+# come with it.
+evalplus==0.3.1

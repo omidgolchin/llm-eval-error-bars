@@ -1,0 +1,64 @@
+{
+ "arize-ai/qwen-2-1.5b-instruct": {
+  "id": "arize-ai/qwen-2-1.5b-instruct",
+  "display_name": "Arize AI Qwen 2 1.5B Instruct",
+  "organization": "Togethercomputer",
+  "link": "https://huggingface.co/api/models/togethercomputer/arize-ai-qwen-2-1.5b-instruct",
+  "license": null,
+  "context_length": 32768,
+  "created": 1745522693,
+  "pricing": {
+   "hourly": 0,
+   "input": 0.1,
+   "output": 0.1,
+   "base": 0,
+   "finetune": 0,
+   "image_pixel": 0,
+   "transcribe": 0,
+   "image": 0,
+   "video": 0
+  }
+ },
+ "thinkingmachines/Inkling": {
+  "id": "thinkingmachines/Inkling",
+  "display_name": "Inkling FP4",
+  "organization": "Thinking Machines",
+  "link": "https://huggingface.co/api/models/thinkingmachines/Inkling-NVFP4",
+  "license": "apache-2.0",
+  "context_length": 524288,
+  "created": 1794000647,
+  "pricing": {
+   "hourly": 0,
+   "input": 1,
+   "output": 4.05,
+   "base": 0,
+   "finetune": 0,
+   "cached_input": 0.17,
+   "image_pixel": 0,
+   "transcribe": 0,
+   "image": 0,
+   "video": 0
+  }
+ },
+ "meta-models/Muse-Glimmer-30B": {
+  "id": "meta-models/Muse-Glimmer-30B",
+  "display_name": "Muse Glimmer 30B",
+  "organization": "Meta",
+  "link": "https://huggingface.co/api/models/togethercomputer/onyx_final_hf-fp8-mlp",
+  "license": "apache-2.0",
+  "context_length": 131072,
+  "created": 0,
+  "pricing": {
+   "hourly": 0,
+   "input": 0.35,
+   "output": 1.5,
+   "base": 0,
+   "finetune": 0,
+   "cached_input": 0.04,
+   "image_pixel": 0,
+   "transcribe": 0,
+   "image": 0,
+   "video": 0
+  }
+ }
+}

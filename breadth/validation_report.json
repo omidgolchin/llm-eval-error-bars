@@ -1,0 +1,592 @@
+{
+ "mbpp": {
+  "dataset": "mbpp",
+  "docker_available": false,
+  "problems": {
+   "Mbpp/2": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "Mbpp/3": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "Mbpp/4": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "Mbpp/6": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "Mbpp/7": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "Mbpp/8": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "Mbpp/9": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "Mbpp/11": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "Mbpp/12": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "Mbpp/14": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "Mbpp/16": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "Mbpp/17": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   }
+  },
+  "ok": true
+ },
+ "humaneval": {
+  "dataset": "humaneval",
+  "docker_available": false,
+  "problems": {
+   "HumanEval/0": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "HumanEval/1": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "HumanEval/2": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "HumanEval/3": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "HumanEval/4": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "HumanEval/5": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "HumanEval/6": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "HumanEval/7": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "HumanEval/8": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "HumanEval/9": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "HumanEval/10": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   },
+   "HumanEval/11": {
+    "canonical": {
+     "pass": true,
+     "base_status": "pass",
+     "plus_status": "pass"
+    },
+    "broken": {
+     "renamed_entry": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "truncated": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     },
+     "garbage": {
+      "pass": false,
+      "base_status": "fail",
+      "plus_status": "fail"
+     }
+    }
+   }
+  },
+  "ok": true
+ }
+}
